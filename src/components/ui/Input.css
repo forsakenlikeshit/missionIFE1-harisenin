@@ -1,0 +1,23 @@
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  margin-bottom: 4px;
+}
+
+.input-field {
+  border: 1px solid #3a35411f;
+  border-radius: 6px;
+  transition: 0.2s ease;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: var(--primary);
+}

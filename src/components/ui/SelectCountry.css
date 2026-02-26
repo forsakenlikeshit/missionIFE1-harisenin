@@ -1,0 +1,17 @@
+.country-code {
+  display: flex;
+  flex-direction: row;
+}
+
+.country-flag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 48px;
+  border: 1px solid #3a35411f;
+  border-radius: 6px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #f4f5fa;
+}

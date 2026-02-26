@@ -1,0 +1,54 @@
+.btn {
+  width: 106px;
+  height: 42px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+}
+
+/* =========================
+   PRIMARY
+========================= */
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--light);
+}
+
+/* =========================
+   PRIMARY SHADOW
+========================= */
+.btn-primary-shadow {
+  background-color: var(--primary-100);
+  color: var(--primary);
+}
+
+/* =========================
+   PRIMARY OUTLINE
+========================= */
+.btn-primary-outline {
+  background-color: white;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+/* =========================
+   SECONDARY (YELLOW)
+========================= */
+.btn-secondary {
+  background-color: var(--secondary);
+  color: var(--light);
+}
+
+.btn-secondary-shadow {
+  background-color: var(--secondary-100);
+  color: var(--secondary);
+}
+
+.btn-secondary-outline {
+  background-color: white;
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+}

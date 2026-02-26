@@ -1,0 +1,165 @@
+.course-card {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+  padding: 16px;
+  gap: 8px;
+}
+
+.course-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 12px;
+}
+
+.thumbnail {
+  width: 82px;
+  height: 82px;
+  flex-shrink: 0;
+}
+
+.course-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.course-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #222325;
+}
+
+.course-description {
+  display: none;
+}
+
+.course-author {
+  display: flex;
+  align-items: center;
+  width: 194px;
+  height: 37px;
+  gap: 8px;
+}
+
+.author-avatar {
+  width: 36px;
+}
+
+.author-details strong {
+  color: #222325;
+}
+
+.author-details p {
+  font-size: 12px;
+}
+
+.author-workplace {
+  display: none;
+}
+
+.course-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 288px;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 90px;
+  height: 18px;
+}
+
+.score {
+  font-weight: 500;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #3ecf4c;
+}
+
+@media (min-width: 1024px) {
+  .course-card {
+    width: 384px;
+    padding: 20px;
+    gap: 16px;
+  }
+
+  .course-info {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .thumbnail {
+    width: 344px;
+    height: 193px;
+  }
+
+  .course-title {
+    font-size: 18px;
+  }
+
+  .course-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    width: 344px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .course-author {
+    width: 344px;
+    height: 42px;
+    gap: 10px;
+  }
+
+  .author-avatar {
+    width: 40px;
+  }
+
+  .author-details p {
+    font-size: 14px;
+  }
+
+  .author-workplace {
+    display: inline;
+    font-weight: 700;
+  }
+
+  .course-footer {
+    width: 344px;
+  }
+
+  .score {
+    font-size: 12px;
+  }
+
+  .price {
+    font-size: 24px;
+  }
+}

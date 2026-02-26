@@ -1,0 +1,13 @@
+.input-phone {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-label {
+  margin-bottom: 4px;
+}
+
+.phone-row {
+  display: flex;
+  justify-content: space-between;
+}

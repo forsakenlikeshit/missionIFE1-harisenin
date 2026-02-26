@@ -1,0 +1,24 @@
+.main-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 28px;
+  padding-right: 20px;
+  padding-bottom: 28px;
+  padding-left: 20px;
+  gap: 24px;
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  /* MAIN */
+
+  .main-main {
+    padding: 64px 120px 64px 120px;
+    gap: 64px;
+  }
+}

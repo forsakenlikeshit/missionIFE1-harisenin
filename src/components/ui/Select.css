@@ -1,0 +1,25 @@
+.select {
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 16px;*/
+}
+
+.select-label {
+  margin-bottom: 4px;
+}
+
+.select-field {
+  border: 1px solid #3a35411f;
+  background-color: white;
+  border-radius: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.2s ease;
+}
+
+.select-field:focus {
+  outline: none;
+  border-color: var(--primary);
+}

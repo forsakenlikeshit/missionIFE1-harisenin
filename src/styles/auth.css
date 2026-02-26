@@ -1,0 +1,167 @@
+/* ===== Layout ===== */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 20px;
+  gap: 24px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+/* ===== Card Base ===== */
+
+.auth-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.auth {
+  margin-bottom: 20px;
+}
+
+.auth-form {
+  margin-top: 20px;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 110%;
+  color: #222325;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* ===== Inputs ===== */
+
+.input-label::after {
+  content: '*';
+  color: var(--danger);
+  margin-left: 4px;
+}
+
+.input-auth {
+  width: 280px;
+  height: 48px;
+  margin-bottom: 12px;
+}
+
+/* ===== Buttons ===== */
+
+.btn-auth {
+  width: 280px;
+  height: 34px;
+}
+
+.btn-submit {
+  margin-bottom: 16px;
+}
+
+/* ===== Error ===== */
+
+.auth-error {
+  color: var(--danger);
+  font-size: 14px;
+}
+
+/* ===== Forgot Password ===== */
+
+.lupa-password {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 24px;
+  text-align: right;
+  text-decoration: none;
+}
+
+/* ===== Divider ===== */
+
+.divider {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  height: 2px;
+  background-color: #f1f1f1;
+}
+
+.divider span {
+  padding: 0 12px;
+  background: white;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* ===== Alt Login ===== */
+
+.alt-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-sso {
+  background-color: white;
+  border: 1px solid #f1f1f1;
+  color: var(--dark-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+}
+
+/* ===== Responsive ===== */
+
+@media (min-width: 1024px) {
+  main {
+    padding: 64px 120px;
+    gap: 36px;
+  }
+
+  .auth-card {
+    width: 590px;
+    padding: 36px;
+    font-size: 16px;
+  }
+
+  .auth {
+    all: unset;
+  }
+
+  .p-title {
+    font-size: 32px;
+  }
+
+  .input-auth {
+    width: 518px;
+  }
+
+  .btn-auth {
+    width: 518px;
+    height: 42px;
+    font-size: 16px;
+  }
+}
