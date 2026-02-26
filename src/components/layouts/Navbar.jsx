@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Hamburger from '../../assets/images/hamburger.png';
 import Logo from '../../assets/images/logo.png';
 import Profile from '../../assets/images/profilepic.png';
 import Button from '../ui/Button';
@@ -16,7 +17,7 @@ function Navbar({ variant = 'main', isLoggedIn = false }) {
       {variant === 'main' && (
         <div className="right-nav">
           <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>
-            <img src="/images/hamburger.png" alt="Open menu" />
+            <img src={Hamburger} alt="Open menu" />
           </button>
 
           <nav className={`nav-links ${isOpen ? 'open' : ''}`}>
