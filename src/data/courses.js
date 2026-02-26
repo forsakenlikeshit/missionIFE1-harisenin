@@ -1,11 +1,11 @@
-const thumbnailModules = import.meta.glob('../assets/images/Thumbnail*.png', { eager: true });
-const avatarModules = import.meta.glob('../assets/images/Avatar*.png', { eager: true });
+const courseThumbnails = import.meta.glob('../assets/images/Thumbnail*.png', { eager: true });
+const authorAvatars = import.meta.glob('../assets/images/Avatar*.png', { eager: true });
 
-const thumbnails = Object.entries(thumbnailModules)
+const thumbnails = Object.entries(courseThumbnails)
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([, module]) => module.default);
 
-const avatars = Object.entries(avatarModules)
+const avatars = Object.entries(authorAvatars)
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([, module]) => module.default);
 

@@ -9,12 +9,12 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Main Layout */}
+        {/* MAIN LAYOUT */}
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
         </Route>
 
-        {/* Auth Layout */}
+        {/* AUTH LAYOUT */}
         <Route element={<AuthLayout />}>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />

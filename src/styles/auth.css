@@ -1,6 +1,4 @@
-/* ===== Layout ===== */
-
-main {
+.auth-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,8 +8,6 @@ main {
   line-height: 140%;
   letter-spacing: 0.2px;
 }
-
-/* ===== Card Base ===== */
 
 .auth-card {
   display: flex;
@@ -48,8 +44,6 @@ main {
   margin-bottom: 10px;
 }
 
-/* ===== Inputs ===== */
-
 .input-label::after {
   content: '*';
   color: var(--danger);
@@ -62,8 +56,6 @@ main {
   margin-bottom: 12px;
 }
 
-/* ===== Buttons ===== */
-
 .btn-auth {
   width: 280px;
   height: 34px;
@@ -73,14 +65,10 @@ main {
   margin-bottom: 16px;
 }
 
-/* ===== Error ===== */
-
 .auth-error {
   color: var(--danger);
   font-size: 14px;
 }
-
-/* ===== Forgot Password ===== */
 
 .lupa-password {
   display: block;
@@ -89,8 +77,6 @@ main {
   text-align: right;
   text-decoration: none;
 }
-
-/* ===== Divider ===== */
 
 .divider {
   width: 100%;
@@ -113,8 +99,6 @@ main {
   color: #6b7280;
 }
 
-/* ===== Alt Login ===== */
-
 .alt-login {
   display: flex;
   flex-direction: column;
@@ -133,10 +117,8 @@ main {
   gap: 5px;
 }
 
-/* ===== Responsive ===== */
-
 @media (min-width: 1024px) {
-  main {
+  .auth-main {
     padding: 64px 120px;
     gap: 36px;
   }

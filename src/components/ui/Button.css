@@ -9,34 +9,24 @@
   border: none;
 }
 
-/* =========================
-   PRIMARY
-========================= */
+/* PRIMARY */
 .btn-primary {
   background-color: var(--primary);
   color: var(--light);
 }
 
-/* =========================
-   PRIMARY SHADOW
-========================= */
 .btn-primary-shadow {
   background-color: var(--primary-100);
   color: var(--primary);
 }
 
-/* =========================
-   PRIMARY OUTLINE
-========================= */
 .btn-primary-outline {
   background-color: white;
   color: var(--primary);
   border: 1px solid var(--primary);
 }
 
-/* =========================
-   SECONDARY (YELLOW)
-========================= */
+/* SECONDARY */
 .btn-secondary {
   background-color: var(--secondary);
   color: var(--light);

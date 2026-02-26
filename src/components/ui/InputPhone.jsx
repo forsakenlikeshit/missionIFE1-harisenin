@@ -6,7 +6,6 @@ function InputPhone({ label, countryCode, onCountryChange, phone, onPhoneChange 
   const handlePhoneChange = (e) => {
     let value = e.target.value;
 
-    // Remove leading 0
     if (value.startsWith('0')) {
       value = value.replace(/^0+/, '');
     }

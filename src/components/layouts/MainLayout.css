@@ -11,14 +11,9 @@
 }
 
 @media (min-width: 1024px) {
-  body {
-    font-size: 16px;
-  }
-
-  /* MAIN */
-
   .main-main {
     padding: 64px 120px 64px 120px;
     gap: 64px;
+    font-size: 16px;
   }
 }

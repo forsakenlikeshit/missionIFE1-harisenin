@@ -4,7 +4,6 @@ import Google from '../assets/images/google-icon.png';
 import Button from '../components/ui/Button';
 import Input from '../components/ui/Input';
 import InputPassword from '../components/ui/InputPassword';
-import '../pages/Login.css';
 import '../styles/auth.css';
 
 function Login() {

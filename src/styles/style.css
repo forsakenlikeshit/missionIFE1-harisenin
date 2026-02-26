@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 :root {
-  /* === Main Colors === */
+  /* MAIN COLORS */
   --primary: #3ecf4c;
   --primary-400: #6be26b;
   --primary-300: #94f08b;
@@ -20,7 +20,7 @@
   --tertiary-200: #fecaa5;
   --tertiary-100: #fee8d2cc;
 
-  /* === Text Colors === */
+  /* TEXT COLORS */
   --dark: #222325;
   --dark-secondary: #333333ad;
   --dark-disabled: #3a354161;
@@ -28,15 +28,11 @@
   --light-secondary: #c1c2c4;
   --light-disabled: #9d9ea1;
 
-  /* === Semantic Colors === */
+  /* SEMANTIC COLORS */
   --danger: #ff5c2b;
   --success: #38d189;
   --warning: #fce91b;
   --info: #0980e2;
-
-  /* === UI Tokens === */
-  --border-radius: 8px;
-  --transition-default: all 0.2s ease;
 }
 
 * {

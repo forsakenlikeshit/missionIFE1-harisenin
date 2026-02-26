@@ -14,7 +14,9 @@ function Home() {
       {/* HERO */}
       <section className="hero">
         <div className="hero-txt">
-          <h1>Revolusi Pembelajaran: Temukan Ilmu Baru Melalui Platform Video Interaktif</h1>
+          <h1 className="hero-title">
+            Revolusi Pembelajaran: Temukan Ilmu Baru Melalui Platform Video Interaktif
+          </h1>
           <p>
             Temukan ilmu baru yang menarik dan mendalam melalui koleksi video pembelajaran
             berkualitas tinggi.
