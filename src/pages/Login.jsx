@@ -44,7 +44,7 @@ function Login() {
     <section className="auth-card login-card">
       <div className="auth login">
         <div className="card-title">
-          <p className="p-title">Masuk ke Akun</p>
+          <h3 className="auth-title">Masuk ke Akun</h3>
           <p>Yuk, lanjutin belajarmu di videobelajar.</p>
         </div>
 

@@ -57,7 +57,7 @@ function Register() {
     <section className="auth-card register-card">
       <div className="auth register">
         <div className="card-title">
-          <p className="p-title">Pendaftaran Akun</p>
+          <h3 className="auth-title">Pendaftaran Akun</h3>
           <p>Yuk, daftarkan akunmu sekarang juga!</p>
         </div>
 
